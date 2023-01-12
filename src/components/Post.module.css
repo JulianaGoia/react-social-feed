@@ -26,7 +26,7 @@
 }
 
 .content a:hover {
-    color: var(--green-300);
+    color: var(--violet-600);
 }
 
 /* estiliza somente o primeiro header - o que engloba tudo. Não orá estilizar outros headers que estejam dentro dessa header pai*/
@@ -104,7 +104,7 @@
     margin-top: 1rem;
     border-radius: 8px;
     border: 0;
-    background-color: var(--green-500);
+    background-color: var(--violet-600);
     color: var(--white);
     font-weight: bold;
     cursor: pointer;
@@ -115,7 +115,7 @@
 
 /* só acontece o hover quando nao estiver disabled */
 .commentForm button:not(:disabled):hover {
-    background-color: var(--green-300);
+    background-color: var(--violet-600);
 }
 
 .commentForm button:disabled {
